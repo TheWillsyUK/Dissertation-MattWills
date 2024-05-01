@@ -1,3 +1,11 @@
+
+print("Welcome to the Cybersecurity Threat Intelligence Analysis Tool!")
+print("this tool will help assess your company's cybersecurity practices and identify areas where you can improve security.")
+print("Please provide some information about your company's industry and then answer the following questions to the best of your ability.")
+print("Each question will focus on different aspects of your company's security posture, such as architecture, technology, governance, processes, threat intelligence, and risk management.")
+print("For each question, simply type 'yes' or 'no'")
+print("First, please answer your industry using 1,2 or 3")
+
 class ThreatIntelligenceAnalyzer:
     def __init__(self):
         self.industries = {
